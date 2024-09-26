@@ -1,19 +1,22 @@
-//React Lists: In React we render lists with loop
+import { useState } from "react";
 
-//An example of map:
-
+//React Forms
 function App() {
-  const languages = ["JS", "Python", "Java", "C", "C++", "C#"];
+  const [email, setEmail] = useState("");
 
   return (
-    <div className="App">
-      {languages.map((language) => {
-        return <div>I love {language}</div>;
-      })}
-    </div>
+    <form>
+      <label>
+        Enter your email:{" "}
+        <input
+          type="email"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+        />
+      </label>
+      <input type="submit" />
+    </form>
   );
 }
 
 export default App;
-
-//
