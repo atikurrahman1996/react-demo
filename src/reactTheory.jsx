@@ -158,4 +158,12 @@ const App = () => {
     const [name, setName] = useState('')
 };
 
+
+React useEffect Hook:
+The useEffect Hook allows you to perform side effects in your components.
+useEffect accepts two arguments. The second one is optional. 
+import { useState, useEffect } from "react";
+
+
+
 */
