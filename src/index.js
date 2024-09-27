@@ -7,10 +7,11 @@ import Home2 from "./useEffect";
 import Component1 from "./useContext";
 import App3 from "./useRef";
 import App4 from "./useMemo";
+import Application from "./App";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <div>
-    <App4 />
+    <Application />
   </div>
 );
