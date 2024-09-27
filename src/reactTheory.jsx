@@ -164,6 +164,12 @@ The useEffect Hook allows you to perform side effects in your components.
 useEffect accepts two arguments. The second one is optional. 
 import { useState, useEffect } from "react";
 
+React Context:
+useState is a Hook that lets you add React state to function components. 
+useContext helps to manage states globally, i.e. between components. 
+To create context, you must Import createContext and initialize it:
+
+import { useState, createContext, useContext } from "react";
 
 
 */
