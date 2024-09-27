@@ -6,10 +6,11 @@ import Home from "./useEffect";
 import Home2 from "./useEffect";
 import Component1 from "./useContext";
 import App3 from "./useRef";
+import App4 from "./useMemo";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <div>
-    <App3 />
+    <App4 />
   </div>
 );

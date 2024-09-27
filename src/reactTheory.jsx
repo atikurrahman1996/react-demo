@@ -181,4 +181,13 @@ import { useState, useEffect, useRef } from "react";
 useRef() only returns one item. 
 It returns an Object called current.When we initialize useRef we set the initial value: useRef(0).
 
+useCallback:
+The useCallback and useMemo Hooks are similar. The main difference is that useMemo returns a memoized value 
+and useCallback returns a memoized function
+
+React useMemo:
+React useMemo Hook returns a memoized value. 
+The useMemo Hook only runs when any of its dependencies update. 
+useMemo can improve performance. 
+import { useMemo, useState } from "react";
 */
