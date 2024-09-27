@@ -164,12 +164,21 @@ The useEffect Hook allows you to perform side effects in your components.
 useEffect accepts two arguments. The second one is optional. 
 import { useState, useEffect } from "react";
 
-React Context:
+React useContext:
 useState is a Hook that lets you add React state to function components. 
 useContext helps to manage states globally, i.e. between components. 
 To create context, you must Import createContext and initialize it:
 
 import { useState, createContext, useContext } from "react";
+const UserContext = createContext();
 
+React useRef:
+useRef keeps the value stored between renders. 
+In this, value changed doesn't cause a re-render. 
+It can also be used to access a DOM element directly. 
+Use useRef to track application renders.
+import { useState, useEffect, useRef } from "react";
+useRef() only returns one item. 
+It returns an Object called current.When we initialize useRef we set the initial value: useRef(0).
 
 */
