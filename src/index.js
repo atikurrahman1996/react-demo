@@ -1,10 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import FavoriteColor from "./ReactHooks";
+import App from "./useState";
+import App2 from "./useState";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <div>
-    <FavoriteColor />
+    <App2 />
   </div>
 );

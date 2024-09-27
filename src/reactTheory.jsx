@@ -144,4 +144,18 @@ const Blogs = () => {
 
 export default Blogs;
 
+
+//useState:
+useState is a Hook that lets you add React state to function components. 
+
+Importing useState:
+To use useState, first we need to import: import { useState } from "react";
+
+Initializing useState:
+import { useState } from "react";
+
+const App = () => {
+    const [name, setName] = useState('')
+};
+
 */
