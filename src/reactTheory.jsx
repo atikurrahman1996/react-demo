@@ -191,3 +191,15 @@ The useMemo Hook only runs when any of its dependencies update.
 useMemo can improve performance. 
 import { useMemo, useState } from "react";
 */
+
+//Props
+//Props are arguments passed to React components via HTML attributes.
+
+//Component:
+
+// function Cat(props) {
+//   return <h1>Meow's color is {props.color}</h1>;
+// }
+// Main file:
+
+// <Cat color="purple" />
